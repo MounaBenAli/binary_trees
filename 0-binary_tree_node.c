@@ -20,11 +20,11 @@ binary_tree_t  *new_node;
 
 	if (new_node)
 	{
-		new_node->n= value;
+		new_node->n = value;
 		new_node->parent = parent;
 		new_node->left = new_node->right = NULL;
 
 	}
 
-	return( new_node);
+	return (new_node);
 }
