@@ -36,7 +36,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	size_t L_subtree = binary_tree_size(tree->left);
 	size_t R_subtree = binary_tree_size(tree->right);
 
-	if (!tree && (!L_subtree || !R_subtree))
+	if (!tree)
 		return (0);
 
 	if (tree->left == NULL && tree->right == NULL)
